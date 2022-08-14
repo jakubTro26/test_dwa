@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: pc-market
-Plugin URI:
+Plugin URI:w
 Description: pc-market
 Author: Jakub Troczyńki
 Author URI: ttroczynski5@gmail.com
