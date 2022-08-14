@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Menu Test
-Plugin URI: http://codex.wordpress.org/Adding_Administration_Menus
-Description: Menu Test
-Author: Codex authorsf
-Author URI: http://example.comf
+Plugin Name: pc-market
+Plugin URI:
+Description: pc-market
+Author: Jakub Troczyńki
+Author URI: ttroczynski5@gmail.com
 */
 
 // Hook for adding admin menusf
