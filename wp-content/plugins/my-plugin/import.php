@@ -28,7 +28,7 @@
             $file =home_url() . '/test_dobry.csv';
 
 
-			echo $file;
+			
 
           		$params = array(
 			'delimiter'       => ',', 
