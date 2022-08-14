@@ -26,7 +26,7 @@ function mt_add_pages() {
 
 // toplevel
 function mt_toplevel_page() {
-    echo "<h2>" . __( 'pcmarket_import', 'menu-test' ) . "</h2>";
+    echo "<h2>" . __( 'pcmarket' ) . "</h2>";
 
 
    
