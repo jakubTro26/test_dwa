@@ -27,6 +27,9 @@
       
             $file =site_url() ."/test_dobry.csv";
 
+
+			echo $file;
+
           		$params = array(
 			'delimiter'       => ',', 
 			'start_pos'       => 0, // PHPCS: input var ok.
