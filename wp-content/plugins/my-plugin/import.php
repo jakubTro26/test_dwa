@@ -25,7 +25,7 @@
 		// 	'parse'           => true,
 		// );
       
-            $file ="/home4/smakolyk/public_html/test/test_dobry.csv";
+            $file =site_url() ."/test_dobry.csv";
 
           		$params = array(
 			'delimiter'       => ',', 
@@ -33,7 +33,7 @@
 			'mapping'         => array(
                 'from' => array('towar_id','kod','cku','plik_zdjecia','czy_opakowanie','nazwa'),
 
-                'to' => array('id','sku','','','','name')
+                'to' => array('','sku','','','','name')
 
 
             ), // PHPCS: input var ok.
