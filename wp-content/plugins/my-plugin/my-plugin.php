@@ -29,13 +29,9 @@ function mt_toplevel_page() {
     echo "<h2>" . __( 'pcmarket_import', 'menu-test' ) . "</h2>";
 
 
-    add_action('init', 'my_custom_css_stylesheet');
- 
-        function my_custom_css_stylesheet() {
-              wp_register_style( 'custom-design', ABSPATH . 'wp-content/plugins/my-plugin/design.css' );
-        }
+   
 
-        wp_enqueue_style( 'custom-design' );
+        wp_enqueue_style( 'custom-design',ABSPATH . 'wp-content/plugins/my-plugin/design.css' );
 
 
 
