@@ -25,7 +25,7 @@
 		// 	'parse'           => true,
 		// );
       
-            $file =site_url() ."/test_dobry.csv";
+            $file ='https://www.smakolyk.nstrefa.pl/test_dwa/test_dobry.csv';
 
 
 			echo $file;
