@@ -15,7 +15,7 @@ function mt_add_pages() {
     
 
     // Add a new top-level menu (ill-advised):
-    add_menu_page(__('pcmarket_import','menu-test'), __('pcmarket','menu-test'), 'manage_options', 'mt-top-level-handle', 'mt_toplevel_page' );
+    add_menu_page(__('pcmarket','pcmarket'), __('pcmarket','pcmarket'), 'manage_options', 'mt-top-level-handle', 'mt_toplevel_page' );
 
    
 
