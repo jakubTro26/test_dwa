@@ -45,7 +45,7 @@ function mt_toplevel_page() {
                 <div class="opis1">
                     konwertuj pliki XML do jednego pliku csv
                 </div>
-                <a  href="https://www.smakolyk.nstrefa.pl/test_dwa/wp-admin/admin.php?page=mt-top-level-handle&action=convert" class="button1">
+                <a  href="<?php echo ABSPATH ?>wp-admin/admin.php?page=mt-top-level-handle&action=convert" class="button1">
                     <button class="button1">
                         konwertuj
                     </button>
