@@ -88,7 +88,7 @@ if($action=='convert'){
 
 if($action=='import'){
 
-    require_once ABSPATH . 'import.php';
+    require_once ABSPATH . 'wp-content/plugins/my-plugin/import.php';
 
 
 
