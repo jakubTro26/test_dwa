@@ -31,7 +31,7 @@ function mt_toplevel_page() {
 
    
 
-        wp_enqueue_style( 'custom-design',ABSPATH . 'wp-content/plugins/my-plugin/design.css' );
+        wp_enqueue_style( 'custom-design',site_url() . '/wp-content/plugins/my-plugin/design.css' );
 
 
 
