@@ -59,7 +59,7 @@ function mt_toplevel_page() {
             </div>
         </div>
         <div class="wrapper2">
-        <a  href="<?php echo ABSPATH ?>/wp-admin/admin.php?page=mt-top-level-handle&action=import" class="button2">
+        <a  href="<?php echo ABSPATH ?>wp-admin/admin.php?page=mt-top-level-handle&action=import" class="button2">
                     <button class="button1">
                         importuj
                     </button>
