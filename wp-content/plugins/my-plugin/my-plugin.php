@@ -30,7 +30,7 @@ function mt_toplevel_page() {
 
 
    
-
+        add_filter( 'woocommerce_product_csv_importer_check_import_file_path', '__return_false' );
         wp_enqueue_style( 'custom-design', site_url() . '/wp-content/plugins/my-plugin/design.css' );
 
 
