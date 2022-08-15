@@ -9,7 +9,7 @@ $kolumny=array();
 $delimiter = ',';
 $enclosure = '"';
 $stan=array();
-//rff
+//rffg
 
 function createCsv($xml, $f)
 {
