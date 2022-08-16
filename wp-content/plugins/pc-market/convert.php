@@ -120,6 +120,7 @@ $filexml = '/home4/smakolyk/plik.xml';
 
 //cwd wp_admin
 if (file_exists($filexml)) {
+    echo 'fileexists';
     $xml = simplexml_load_file($filexml);
     $f = fopen('./test.csv', 'w');
     
