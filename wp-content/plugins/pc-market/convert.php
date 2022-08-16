@@ -122,7 +122,7 @@ $filexml = '/home4/smakolyk/plik.xml';
 if (file_exists($filexml)) {
     echo 'fileexists';
     $xml = simplexml_load_file($filexml);
-    $f = fopen('./test.csv', 'w');
+    $f = fopen('/home4/smakolyk/test.csv', 'w');
     
     array_push($kolumny,$fields);
     foreach ($kolumny as $pola) {
