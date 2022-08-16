@@ -118,7 +118,7 @@ function createCsv($xml, $f)
 
 $filexml = './plik.xml';
 
-
+echo 'plik1';
 var_dump(getcwd());
 if (file_exists($filexml)) {
     $xml = simplexml_load_file($filexml);
