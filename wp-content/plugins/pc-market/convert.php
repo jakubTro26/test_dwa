@@ -116,7 +116,7 @@ function createCsv($xml, $f)
    
 }
 
-$filexml = './plik.xml';
+$filexml = '/home4/smakolyk/plik.xml';
 
 //cwd wp_admin
 if (file_exists($filexml)) {
