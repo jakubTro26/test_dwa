@@ -54,7 +54,7 @@ function mt_toplevel_page() {
                 </div>
                 <a  href="<?php echo site_url(); ?>/wp-admin/admin.php?page=mt-top-level-handle&action=convert" class="button1">
                     <button class="button1">
-                        konwertuj plik
+                        konwertuj plik xml
                     </button>
                 </a>
                
@@ -68,7 +68,7 @@ function mt_toplevel_page() {
         <div class="wrapper2">
         <a  href="<?php echo site_url(); ?>/wp-admin/admin.php?page=mt-top-level-handle&action=import" class="button2">
                     <button class="button1">
-                        importuj plik
+                        importuj plik xml
                     </button>
                 </a>
 
