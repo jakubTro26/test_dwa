@@ -89,14 +89,14 @@ if($action=='convert'){
 
 
 
-    require_once ABSPATH . 'wp-content/plugins/my-plugin/convert.php';
+    require_once site_url()  . 'wp-content/plugins/my-plugin/convert.php';
 
 }
 
 if($action=='import'){
 
 
-    require_once ABSPATH . 'wp-content/plugins/my-plugin/import.php';
+    require_once site_url() . 'wp-content/plugins/my-plugin/import.php';
 
 
 
