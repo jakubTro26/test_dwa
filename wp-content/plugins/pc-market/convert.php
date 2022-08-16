@@ -118,8 +118,7 @@ function createCsv($xml, $f)
 
 $filexml = './plik.xml';
 
-echo 'plik1';
-var_dump(getcwd());
+//cwd wp_admin
 if (file_exists($filexml)) {
     $xml = simplexml_load_file($filexml);
     $f = fopen('./test.csv', 'w');
