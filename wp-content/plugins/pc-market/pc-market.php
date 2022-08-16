@@ -89,14 +89,14 @@ if($action=='convert'){
 
 
 
-    require_once site_url()  . 'wp-content/plugins/my-plugin/convert.php';
+    require_once ABSPATH  . 'wp-content/plugins/pc-market/convert.php';
 
 }
 
 if($action=='import'){
 
 
-    require_once  'wp-content/plugins/my-plugin/import.php';
+    require_once ABSPATH .  'wp-content/plugins/pc-market/import.php';
 
 
 
