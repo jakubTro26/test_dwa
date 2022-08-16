@@ -119,11 +119,11 @@ function createCsv($xml, $f)
 $filexml = './plik.xml';
 
 
-
+var_dump(getcwd());
 if (file_exists($filexml)) {
     $xml = simplexml_load_file($filexml);
     $f = fopen('./test.csv', 'w');
-    var_dump(getcwd());
+    
     array_push($kolumny,$fields);
     foreach ($kolumny as $pola) {
         fputcsv($f, $pola, $delimiter, $enclosure);
