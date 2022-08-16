@@ -96,7 +96,7 @@ if($action=='convert'){
 if($action=='import'){
 
 
-    require_once site_url() . 'wp-content/plugins/my-plugin/import.php';
+    require_once  'wp-content/plugins/my-plugin/import.php';
 
 
 
