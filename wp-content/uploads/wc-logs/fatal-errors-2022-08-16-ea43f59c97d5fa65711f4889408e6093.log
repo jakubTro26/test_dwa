@@ -1,0 +1,68 @@
+2022-08-16T10:17:46+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:17:48+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:20:14+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:20:22+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:20:38+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:22:21+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:22:22+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:22:26+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:22:47+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:22:54+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:23:04+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:23:05+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:23:06+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:23:07+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:23:07+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:24:44+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:27:09+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:31:20+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:34:01+00:00 CRITICAL require_once(): Failed opening required 'https://www.smakolyk.nstrefa.pl/test_dwawp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:34:06+00:00 CRITICAL require_once(): Failed opening required 'https://www.smakolyk.nstrefa.pl/test_dwawp-content/plugins/my-plugin/convert.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 92
+
+2022-08-16T10:34:18+00:00 CRITICAL require_once(): Failed opening required 'https://www.smakolyk.nstrefa.pl/test_dwawp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:35:41+00:00 CRITICAL require_once(): Failed opening required 'https://www.smakolyk.nstrefa.pl/test_dwawp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:36:47+00:00 CRITICAL require_once(): Failed opening required 'wp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:36:57+00:00 CRITICAL require_once(): Failed opening required 'wp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:37:03+00:00 CRITICAL require_once(): Failed opening required 'wp-content/plugins/my-plugin/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:38:48+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:38:53+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:39:04+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:39:47+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:40:01+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:41:24+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:42:57+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:42:59+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
+2022-08-16T10:43:04+00:00 CRITICAL require_once(): Failed opening required '/home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/import.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home4/smakolyk/public_html/test_dwa/wp-content/plugins/pc-market/pc-market.php on line 99
+
