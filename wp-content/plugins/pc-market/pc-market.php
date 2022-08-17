@@ -23,6 +23,12 @@ function mt_add_pages() {
 }
 
 
+function cron_function(){
+
+    echo 'cron';
+
+}
+ 
 
 // toplevel
 function mt_toplevel_page() {
