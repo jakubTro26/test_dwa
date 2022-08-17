@@ -25,7 +25,7 @@ function mt_add_pages() {
 
 function cron_function(){
 
-    echo 'cron';
+    echo 'cronf';
 
 }
  
