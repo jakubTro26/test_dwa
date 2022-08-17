@@ -23,6 +23,8 @@ function mt_add_pages() {
 }
 
 
+add_action('cron','cron_function');
+
 function cron_function(){
 
     echo 'cronf1';
