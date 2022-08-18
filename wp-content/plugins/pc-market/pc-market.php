@@ -25,7 +25,7 @@ function mt_add_pages() {
 
 add_action('cron','cron_function');
 
-cron_function(){
+ function cron_function(){
 
        // $myfile = fopen("/home4/smakolyk/public_html/test_dwa/cron.txt", "w") or die("Unable to open file!");
 		$file1 = '/home4/smakolyk/public_html/test_dwa/cron.txt';
