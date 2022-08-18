@@ -31,7 +31,7 @@ add_action('cron','cron_function');
 		$file1 = '/home4/smakolyk/public_html/test_dwa/cron.txt';
 
         $current = file_get_contents($file1);
-        file_put_contents($file1, print_r('kuba',true));
+        file_put_contents($file1, print_r('kuba',true),FILE_APPEND);
 
 
 }
