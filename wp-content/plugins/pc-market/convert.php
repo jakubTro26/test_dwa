@@ -43,10 +43,10 @@ function createCsv($xml, $f)
             // echo '</div>';
             //var_dump(!is_int(array_search($string,$stan)) );
             //var_dump(!is_int(array_search('towar_id',$stan)));
-            var_dump((($string==='towar_id') && (!is_int(array_search($string,$stan)) )));
+            //var_dump((($string==='towar_id') && (!is_int(array_search($string,$stan)) )));
             foreach($fields as $field){
            
-             if(($string===$field) && (!is_int(array_search($string,$stan)) )){
+             if(($string==$field) && (!is_int(array_search($string,$stan)) )){
                 $string_data = $item;
                
                 echo 'inif';
