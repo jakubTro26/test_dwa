@@ -48,7 +48,7 @@ function createCsv($xml, $f)
              if(($string===$field) && (!is_int(array_search($string,$stan)) )){
                 $string_data = $item;
                
-              
+                echo 'inif';
 
                  array_push($rows,$string);
                  array_push($data,$string_data);
@@ -120,7 +120,7 @@ $filexml = '/home4/smakolyk/plik.xml';
 
 //cwd wp_admin
 if (file_exists($filexml)) {
-    echo 'fileexists';
+    
     $xml = simplexml_load_file($filexml);
     $f = fopen('/home4/smakolyk/test.csv', 'w');
     
