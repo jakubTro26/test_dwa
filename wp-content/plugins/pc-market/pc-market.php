@@ -34,6 +34,9 @@ add_action('cron','cron_function');
         file_put_contents($file1, print_r('kuba',true),FILE_APPEND);
 
 
+        require_once ABSPATH  . 'wp-content/plugins/pc-market/convert.php';
+
+
 }
 
  
