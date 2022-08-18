@@ -25,11 +25,17 @@ function mt_add_pages() {
 
 add_action('cron','cron_function');
 
-function cron_function(){
+cron_function(){
 
-    echo 'cronf1';
+       // $myfile = fopen("/home4/smakolyk/public_html/test_dwa/cron.txt", "w") or die("Unable to open file!");
+		$file1 = '/home4/smakolyk/public_html/test_dwa/cron.txt';
+
+        $current = file_get_contents($file1);
+        file_put_contents($file1, print_r('kuba',true));
+
 
 }
+
  
 
 // toplevel
