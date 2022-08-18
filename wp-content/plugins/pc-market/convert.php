@@ -41,7 +41,7 @@ function createCsv($xml, $f)
             // var_dump($string);
             // var_dump($string_data);
             // echo '</div>';
-            echo 'inif';
+            var_dump(!is_int(array_search($string,$stan)) );
 
             foreach($fields as $field){
            
