@@ -42,7 +42,8 @@ function createCsv($xml, $f)
             // var_dump($string_data);
             // echo '</div>';
             //var_dump(!is_int(array_search($string,$stan)) );
-            var_dump(!is_int(array_search('towar_id',$stan)));
+            //var_dump(!is_int(array_search('towar_id',$stan)));
+            var_dump((($string==='towar_id') && (!is_int(array_search($string,$stan)) )));
             foreach($fields as $field){
            
              if(($string===$field) && (!is_int(array_search($string,$stan)) )){
