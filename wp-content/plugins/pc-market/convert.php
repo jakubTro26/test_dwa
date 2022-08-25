@@ -27,7 +27,8 @@ function createCsv($xml, $f, $fields)
     
 
     foreach ($xml->children() as $item) {
-        echo $xml;
+        
+        echo $item;
         
         $hasChild = (count($item->children()) > 0) ? true : false;
         
@@ -112,7 +113,7 @@ function createCsv($xml, $f, $fields)
 
            
         } else {
-            createCsv($item, $f);
+            createCsv($item, $f,$fields);
         }
         
     }
