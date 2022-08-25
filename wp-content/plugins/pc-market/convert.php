@@ -27,7 +27,7 @@ function createCsv($xml, $f, $fields)
     
 
     foreach ($xml->children() as $item) {
-        echo 'kuba';
+        echo $item;
         
         $hasChild = (count($item->children()) > 0) ? true : false;
         
