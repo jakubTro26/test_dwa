@@ -49,6 +49,7 @@ function createCsv($xml, $f, $fields)
                
             foreach($fields as $field){
                 echo 'kuba';
+                var_dump($string);
                 var_dump($string===$field);
              if(($string==$field) && (!is_int(array_search($string,$stan)) )){
                 $string_data = $item;
