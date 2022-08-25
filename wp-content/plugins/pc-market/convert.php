@@ -36,7 +36,7 @@ function createCsv($xml, $f)
              $string = $item->getName();
              
 
-
+            echo 'konwert';
             // echo '<div>';
             // var_dump($string);
             // var_dump($string_data);
