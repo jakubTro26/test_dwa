@@ -36,9 +36,9 @@ function createCsv($xml, $f)
              $string = $item->getName();
              
 
-           $pola = array('kuba','mati');
+           
 
-            foreach($pola as $pole){
+            foreach($fields as $pole){
                 echo 'mati1';
 
 
