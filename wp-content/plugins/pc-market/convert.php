@@ -46,11 +46,11 @@ function createCsv($xml, $f, $fields)
             // echo '</div>';
             //var_dump(!is_int(array_search($string,$stan)) );
          //ffffffg
-               
+         var_dump($string);
             foreach($fields as $field){
-                echo 'kuba';
-                var_dump($string);
-                var_dump($string===$field);
+                
+                
+                
              if(($string==$field) && (!is_int(array_search($string,$stan)) )){
                 $string_data = $item;
                
