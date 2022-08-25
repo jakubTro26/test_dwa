@@ -35,8 +35,12 @@ function createCsv($xml, $f)
             
              $string = $item->getName();
              
+            foreach($fields as $pole){
+                echo $pole;
 
-            echo 'konwert';
+
+            }
+            
             // echo '<div>';
             // var_dump($string);
             // var_dump($string_data);
