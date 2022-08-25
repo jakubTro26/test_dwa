@@ -32,7 +32,7 @@ function createCsv($xml, $f, $fields)
         $hasChild = (count($item->children()) > 0) ? true : false;
         
         if (!$hasChild) {
-            
+            echo 'kuba';
              $string = $item->getName();
              
             
@@ -46,7 +46,7 @@ function createCsv($xml, $f, $fields)
             // echo '</div>';
             //var_dump(!is_int(array_search($string,$stan)) );
          //ffffffg
-         var_dump($string);
+         
             foreach($fields as $field){
                 
                 
@@ -59,8 +59,6 @@ function createCsv($xml, $f, $fields)
                  array_push($rows,$string);
                  array_push($data,$string_data);
 
-                 var_dump($string);
-                 var_dump($string_data);
 
                  if($string==="data_aktualizacji"){
 
