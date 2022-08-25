@@ -27,12 +27,12 @@ function createCsv($xml, $f, $fields)
     
 
     foreach ($xml->children() as $item) {
-
+        echo 'kuba';
         
         $hasChild = (count($item->children()) > 0) ? true : false;
         
         if (!$hasChild) {
-            echo 'kuba';
+            
              $string = $item->getName();
              
             
