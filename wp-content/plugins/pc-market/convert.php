@@ -11,7 +11,7 @@ $enclosure = '"';
 $stan=array();
 //rffg
 
-function createCsv($xml, $f)
+function createCsv($xml, $f,$fields)
 {
 
 
@@ -35,7 +35,7 @@ function createCsv($xml, $f)
             
              $string = $item->getName();
              
-            $pola = $fields;
+            
            
 
           
@@ -47,7 +47,7 @@ function createCsv($xml, $f)
             //var_dump(!is_int(array_search($string,$stan)) );
          //ffffffg
                
-            foreach($pola as $field){
+            foreach($fields as $field){
                 echo 'kuba';
                 var_dump($string==$field);
              if(($string==$field) && (!is_int(array_search($string,$stan)) )){
@@ -135,7 +135,7 @@ if (file_exists($filexml)) {
        }
 
 
-    createCsv($xml, $f);
+    createCsv($xml, $f,$fields);
  
     
        
