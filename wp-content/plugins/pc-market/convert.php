@@ -11,7 +11,7 @@ $enclosure = '"';
 $stan=array();
 //rffg
 
-function createCsv($xml, $f,$fields)
+function createCsv($xml, $f, $fields)
 {
 
 
@@ -20,11 +20,11 @@ function createCsv($xml, $f,$fields)
     global $rows;
     global $data;
     global $list;
-    global $fields;
+   
     global  $delimiter;
     global $enclosure;
     global $stan;
-    global $pola;
+    
 
     foreach ($xml->children() as $item) {
 
