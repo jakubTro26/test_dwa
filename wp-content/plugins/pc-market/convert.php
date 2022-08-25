@@ -55,7 +55,7 @@ function createCsv($xml, $f, $fields)
              if(($string==$field) && (!is_int(array_search($string,$stan)) )){
                 $string_data = $item;
                
-                
+                    echo $string;
 
                  array_push($rows,$string);
                  array_push($data,$string_data);
