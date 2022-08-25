@@ -28,7 +28,7 @@ function createCsv($xml, $f, $fields)
 
     foreach ($xml->children() as $item) {
         
-        echo $item;
+        
         
         $hasChild = (count($item->children()) > 0) ? true : false;
         
@@ -55,7 +55,7 @@ function createCsv($xml, $f, $fields)
              if(($string==$field) && (!is_int(array_search($string,$stan)) )){
                 $string_data = $item;
                
-                echo 'inif';
+                
 
                  array_push($rows,$string);
                  array_push($data,$string_data);
