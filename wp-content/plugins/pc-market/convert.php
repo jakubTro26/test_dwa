@@ -35,7 +35,7 @@ function createCsv($xml, $f)
             
              $string = $item->getName();
              
-
+            $pola = $fields;
            
 
           
