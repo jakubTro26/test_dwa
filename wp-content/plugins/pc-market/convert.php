@@ -36,10 +36,10 @@ function createCsv($xml, $f)
              $string = $item->getName();
              
 
-            global $fields;
+         
 
             foreach($fields as $pole){
-                var_dump($pole);
+                echo 'mati1';
 
 
             }
