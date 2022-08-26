@@ -37,7 +37,7 @@ function createCsv($xml, $f, $lista)
         if (!$hasChild) {
             
              $string = $item->getName();
-             
+             $string_data = $item;
             
            
 
@@ -55,7 +55,7 @@ function createCsv($xml, $f, $lista)
                 
                 
              if(($string==$field) && (!is_int(array_search($string,$stan)) )){
-                $string_data = $item;
+               
                
                     
 
