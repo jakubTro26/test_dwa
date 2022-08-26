@@ -7,7 +7,7 @@ global $kolumny;
 $kolumny=array();
 //rffg
 
-function createCsv($xml, $f, $fields)
+function createCsv($xml, $f, $lista)
 {
 
 
@@ -50,7 +50,7 @@ function createCsv($xml, $f, $fields)
             //var_dump(!is_int(array_search($string,$stan)) );
          //ffffffg
          
-            foreach($fields as $field){
+            foreach($lista as $field){
                 
                 
                 
