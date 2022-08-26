@@ -4,7 +4,7 @@ $fields = array("towar_id","kod","cku","do_usuniecia","czy_opakowanie","nazwa","
 $delimiter1 = ',';
 $enclosure1 = '"';
 global $kolumny;
-
+$kolumny=array();
 //rffg
 
 function createCsv($xml, $f, $fields)
@@ -23,7 +23,7 @@ function createCsv($xml, $f, $fields)
     $rows = array();
     $data = array();
     $list=array();
-    $kolumny=array();
+    
     $delimiter = ',';
     $enclosure = '"';
     $stan=array();
