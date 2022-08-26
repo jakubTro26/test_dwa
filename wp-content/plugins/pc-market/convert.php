@@ -26,7 +26,7 @@ $stan=array();
 
 
 
-function createCsv($xml, $f, $lista, $rows, $data, $list, $stan)
+function createCsv($xml, $f, $fields, $rows, $data, $list, $stan)
 {
 
 
@@ -56,7 +56,7 @@ function createCsv($xml, $f, $lista, $rows, $data, $list, $stan)
             //var_dump(!is_int(array_search($string,$stan)) );
          //ffffffg
          
-            foreach($lista as $field){
+            foreach($fields as $field){
                 
                 
                 
@@ -122,7 +122,7 @@ function createCsv($xml, $f, $lista, $rows, $data, $list, $stan)
 
            
         } else {
-            createCsv($xml, $f, $lista, $rows, $data, $list, $stan);
+            createCsv($xml, $f, $fields, $rows, $data, $list, $stan);
         }
         
     }
@@ -145,7 +145,7 @@ if (file_exists($filexml)) {
        }
 
 
-    createCsv($xml, $f, $lista, $rows, $data, $list, $stan);
+    createCsv($xml, $f, $fields, $rows, $data, $list, $stan);
  
     
        
