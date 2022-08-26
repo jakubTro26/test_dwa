@@ -116,7 +116,7 @@ function createCsv($xml, $f, $lista)
 
            
         } else {
-            createCsv($item, $f,$fields);
+            createCsv($item, $f,$lista);
         }
         
     }
