@@ -26,7 +26,7 @@ $stan=array();
 
 
 
-function createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure, $stan)
+function createCsv($xml, $f, $lista, $rows, $data, $list, $stan)
 {
 
 
@@ -82,7 +82,7 @@ function createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure
     
                                       foreach ($list as $pola) {
                                         
-                          fputcsv($f, $pola, $delimiter, $enclosure);
+                          fputcsv($f, $pola, ',', '"');
                          }
     
                    
@@ -122,7 +122,7 @@ function createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure
 
            
         } else {
-            createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure, $stan);
+            createCsv($xml, $f, $lista, $rows, $data, $list, $stan);
         }
         
     }
@@ -145,7 +145,7 @@ if (file_exists($filexml)) {
        }
 
 
-    createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure, $stan);
+    createCsv($xml, $f, $lista, $rows, $data, $list, $stan);
  
     
        
