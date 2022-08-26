@@ -40,7 +40,7 @@ function createCsv($xml, $f, $lista)
              $string = $item->getName();
              $string_data = $item;
             
-            var_dump($item);
+
 
           
             
@@ -63,7 +63,7 @@ function createCsv($xml, $f, $lista)
                  array_push($rows,$string);
                  array_push($data,$string_data);
 
-
+                var_dump($rows);
                  if($string=="data_aktualizacji"){
 
                    // var_dump($rows);
