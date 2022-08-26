@@ -65,7 +65,7 @@ function createCsv($xml, $f, $fields)
 
                    
                     var_dump($rows);
-    
+                    var_dump($data);
                     $list=array();
                     array_push($list,$rows);
                     array_push($list,$data);
