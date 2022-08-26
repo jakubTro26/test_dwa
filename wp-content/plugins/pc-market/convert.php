@@ -76,7 +76,7 @@ function createCsv($xml, $f, $fields)
     
                                       foreach ($list as $pola) {
                                         var_dump($pola);
-                          fputcsv($f, $pola, $delimiter, $enclosure);
+                         // fputcsv($f, $pola, $delimiter, $enclosure);
                          }
     
                    
