@@ -6,28 +6,33 @@ $enclosure1 = '"';
 global $kolumny;
 $kolumny=array();
 //rffg
+global $rows;
+global $data;
+global $list;
 
-function createCsv($xml, $f, $lista)
+global  $delimiter;
+global $enclosure;
+global $stan;
+global $string_data;
+$rows = array();
+$data = array();
+$list=array();
+
+$delimiter = ',';
+$enclosure = '"';
+$stan=array();
+
+
+
+
+
+function createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure, $stan)
 {
 
 
   
     
-    global $rows;
-    global $data;
-    global $list;
    
-    global  $delimiter;
-    global $enclosure;
-    global $stan;
-    global $string_data;
-    $rows = array();
-    $data = array();
-    $list=array();
-    
-    $delimiter = ',';
-    $enclosure = '"';
-    $stan=array();
 
     foreach ($xml->children() as $item) {
         
@@ -117,7 +122,7 @@ function createCsv($xml, $f, $lista)
 
            
         } else {
-            createCsv($item, $f,$lista);
+            createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure, $stan);
         }
         
     }
@@ -140,7 +145,7 @@ if (file_exists($filexml)) {
        }
 
 
-    createCsv($xml, $f,$fields);
+    createCsv($xml, $f, $lista, $rows, $data, $list, $delimiter, $enclosure, $stan);
  
     
        
