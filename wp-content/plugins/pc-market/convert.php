@@ -134,7 +134,7 @@ if (file_exists($filexml)) {
     $f = fopen('/home4/smakolyk/test.csv', 'w');
     
     array_push($kolumny,$fields);
-    var_dump($kolumny);
+    
     foreach ($kolumny as $pole) {
         fputcsv($f, $pole, $delimiter1, $enclosure1);
        }
