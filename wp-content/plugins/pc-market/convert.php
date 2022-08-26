@@ -20,6 +20,7 @@ function createCsv($xml, $f, $lista)
     global  $delimiter;
     global $enclosure;
     global $stan;
+    global $string_data;
     $rows = array();
     $data = array();
     $list=array();
