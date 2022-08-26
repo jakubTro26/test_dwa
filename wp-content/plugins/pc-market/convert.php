@@ -64,7 +64,7 @@ function createCsv($xml, $f, $fields)
                  if($string==="data_aktualizacji"){
 
                    
-                    var_dump($data);
+                    var_dump($rows);
     
                     $list=array();
                     array_push($list,$rows);
