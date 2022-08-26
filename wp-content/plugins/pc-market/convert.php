@@ -64,13 +64,13 @@ function createCsv($xml, $f, $fields)
                  if($string=="data_aktualizacji"){
 
                    
-                    var_dump($rows);
-                    var_dump($data);
+                    
+                   
                     $list=array();
                     array_push($list,$rows);
                     array_push($list,$data);
                     
-                        
+                        var_dump($list);
     
                                       foreach ($list as $pola) {
                           fputcsv($f, $pola, $delimiter, $enclosure);
