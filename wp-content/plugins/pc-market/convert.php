@@ -70,9 +70,10 @@ function createCsv($xml, $f, $fields)
                     array_push($list,$rows);
                     array_push($list,$data);
                     
-                        var_dump($list);
+                        
     
                                       foreach ($list as $pola) {
+                                        var_dump($pola);
                           fputcsv($f, $pola, $delimiter, $enclosure);
                          }
     
