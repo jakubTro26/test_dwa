@@ -74,13 +74,13 @@ function createCsv($axml, $af, $afields, $arows, $adata, $alist, $astan)
                    // var_dump($rows);
                    
                    
-                    $list=array();
-                    array_push($list,$arows);
-                    array_push($list,$adata);
+                    $alist=array();
+                    array_push($alist,$arows);
+                    array_push($alist,$adata);
                     
                         
     
-                                      foreach ($list as $pola) {
+                                      foreach ($alist as $pola) {
                                         
                           fputcsv($af, $pola, ',', '"');
                          }
