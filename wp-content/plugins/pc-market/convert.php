@@ -54,7 +54,7 @@ function createCsv($xml, $f, $fields, $rows, $data, $list, $stan)
             // var_dump($string_data);
             // echo '</div>';
             //var_dump(!is_int(array_search($string,$stan)) );
-         //ffffffgf
+         //ffffffgff
          
             foreach($fields as $field){
                 
