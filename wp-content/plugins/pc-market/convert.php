@@ -26,7 +26,7 @@ $stan=array();
 
 
 
-function createCsv($xml, $f, $fields, $rows, $data, $list, $stan)
+function createCsv($axml, $af, $afields, $arows, $adata, $alist, $astan)
 {
 
 
@@ -34,7 +34,7 @@ function createCsv($xml, $f, $fields, $rows, $data, $list, $stan)
     
    
 
-    foreach ($xml->children() as $item) {
+    foreach ($axml->children() as $item) {
         
         
         
@@ -56,33 +56,33 @@ function createCsv($xml, $f, $fields, $rows, $data, $list, $stan)
             //var_dump(!is_int(array_search($string,$stan)) );
          //ffffffgff
          
-            foreach($fields as $field){
+            foreach($afields as $field){
                 
                 
                 
-             if(($string==$field) && (!is_int(array_search($string,$stan)) )){
+             if(($string==$field) && (!is_int(array_search($string,$astan)) )){
                
                
                     
 
-                 array_push($rows,$string);
-                 array_push($data,$string_data);
+                 array_push($arows,$string);
+                 array_push($adata,$string_data);
 
-                 var_dump($rows);
+                 var_dump($arows);
                  if($string=="data_aktualizacji"){
 
                    // var_dump($rows);
                    
                    
                     $list=array();
-                    array_push($list,$rows);
-                    array_push($list,$data);
+                    array_push($list,$arows);
+                    array_push($list,$adata);
                     
                         
     
                                       foreach ($list as $pola) {
                                         
-                          fputcsv($f, $pola, ',', '"');
+                          fputcsv($af, $pola, ',', '"');
                          }
     
                    
@@ -100,9 +100,9 @@ function createCsv($xml, $f, $fields, $rows, $data, $list, $stan)
     
                 }
 
-                array_push($stan,$string);
+                array_push($astan,$string);
                 if($string==="data_aktualizacji"){
-                    $stan=array();
+                    $astan=array();
                 }
 
 
@@ -122,7 +122,7 @@ function createCsv($xml, $f, $fields, $rows, $data, $list, $stan)
 
            
         } else {
-            createCsv($xml, $f, $fields, $rows, $data, $list, $stan);
+            createCsv($axml, $af, $afields, $arows, $adata, $alist, $astan);
         }
         
     }
